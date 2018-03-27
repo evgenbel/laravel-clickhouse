@@ -8,8 +8,8 @@ use Illuminate\Support\Arr;
 use Illuminate\Support\Collection;
 use Tinderbox\Clickhouse\Common\Format;
 use Illuminate\Support\Traits\Macroable;
-use Tinderbox\ClickhouseBuilder\Query\Grammar;
-use Tinderbox\ClickhouseBuilder\Query\BaseBuilder;
+use Evgenbel\ClickhouseBuilder\Query\Grammar;
+use Evgenbel\ClickhouseBuilder\Query\BaseBuilder;
 use Evgenbel\LaravelClickHouse\Database\Connection;
 
 class Builder extends BaseBuilder

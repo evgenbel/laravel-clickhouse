@@ -6,9 +6,9 @@ namespace Evgenbel\LaravelClickHouse\Tests\Unit\Database\Query;
 
 use PHPUnit\Framework\TestCase;
 use Evgenbel\LaravelClickHouse\Tests\Helpers;
-use Tinderbox\ClickhouseBuilder\Query\Grammar;
+use Evgenbel\ClickhouseBuilder\Query\Grammar;
 use Evgenbel\LaravelClickHouse\Database\Connection;
-use Tinderbox\ClickhouseBuilder\Query\Enums\Format;
+use Evgenbel\ClickhouseBuilder\Query\Enums\Format;
 use Evgenbel\LaravelClickHouse\Database\Query\Builder;
 
 /**

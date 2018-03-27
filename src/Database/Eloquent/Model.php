@@ -9,7 +9,7 @@ use JsonSerializable;
 use Illuminate\Support\Str;
 use Illuminate\Contracts\Support\Jsonable;
 use Illuminate\Contracts\Support\Arrayable;
-use Tinderbox\ClickhouseBuilder\Query\Grammar;
+use Evgenbel\ClickhouseBuilder\Query\Grammar;
 use Evgenbel\LaravelClickHouse\Database\Connection;
 use Illuminate\Database\ConnectionResolverInterface;
 use Illuminate\Database\Eloquent\Concerns\HasEvents;

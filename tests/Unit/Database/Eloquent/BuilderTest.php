@@ -7,17 +7,17 @@ namespace Evgenbel\LaravelClickHouse\Tests\Unit\Database\Eloquent;
 use Mockery\Mock;
 use PHPUnit\Framework\TestCase;
 use Illuminate\Database\DatabaseManager;
-use Tinderbox\ClickhouseBuilder\Query\Tuple;
+use Evgenbel\ClickhouseBuilder\Query\Tuple;
 use Evgenbel\LaravelClickHouse\Tests\Helpers;
-use Tinderbox\ClickhouseBuilder\Query\Grammar;
-use Tinderbox\ClickhouseBuilder\Query\Identifier;
+use Evgenbel\ClickhouseBuilder\Query\Grammar;
+use Evgenbel\ClickhouseBuilder\Query\Identifier;
 use Evgenbel\LaravelClickHouse\Database\Connection;
-use Tinderbox\ClickhouseBuilder\Query\Enums\Operator;
+use Evgenbel\ClickhouseBuilder\Query\Enums\Operator;
 use Illuminate\Database\Eloquent\ModelNotFoundException;
 use Evgenbel\LaravelClickHouse\Database\Eloquent\Builder;
 use Evgenbel\LaravelClickHouse\Database\Eloquent\Collection;
 use Evgenbel\LaravelClickHouse\Tests\EloquentModelCastingTest;
-use Tinderbox\ClickhouseBuilder\Query\TwoElementsLogicExpression;
+use Evgenbel\ClickhouseBuilder\Query\TwoElementsLogicExpression;
 use Evgenbel\LaravelClickHouse\Database\Query\Builder as QueryBuilder;
 
 /**

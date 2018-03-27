@@ -19,12 +19,12 @@
   },
   "autoload": {
     "psr-4": {
-      "Esazykin\\LaravelClickHouse\\": "src/"
+      "Evgenbel\\LaravelClickHouse\\": "src/"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "Esazykin\\LaravelClickHouse\\Tests\\": "tests/"
+      "Evgenbel\\LaravelClickHouse\\Tests\\": "tests/"
     }
   },
   "scripts": {

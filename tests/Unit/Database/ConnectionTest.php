@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Esazykin\LaravelClickHouse\Tests\Database;
+namespace Evgenbel\LaravelClickHouse\Tests\Database;
 
 use PHPUnit\Framework\TestCase;
-use Esazykin\LaravelClickHouse\Database\Connection;
-use Esazykin\LaravelClickHouse\Database\Query\Builder;
+use Evgenbel\LaravelClickHouse\Database\Connection;
+use Evgenbel\LaravelClickHouse\Database\Query\Builder;
 
 class ConnectionTest extends TestCase
 {

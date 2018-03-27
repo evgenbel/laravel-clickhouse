@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Esazykin\LaravelClickHouse\Database;
+namespace Evgenbel\LaravelClickHouse\Database;
 
 use Tinderbox\ClickhouseBuilder\Query\Grammar;
-use Esazykin\LaravelClickHouse\Database\Query\Builder;
+use Evgenbel\LaravelClickHouse\Database\Query\Builder;
 
 class Connection extends \Tinderbox\ClickhouseBuilder\Integrations\Laravel\Connection
 {
